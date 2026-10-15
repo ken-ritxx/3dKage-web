@@ -1,0 +1,25 @@
+{
+  "name": "kage-landing-page",
+  "version": "1.0.0",
+  "description": "Kage — Where stillness reveals the unseen. 3D WebGL Kyoto mountain temple night walk landing page.",
+  "main": "index.ts",
+  "module": "index.ts",
+  "types": "index.ts",
+  "scripts": {
+    "start": "powershell -ExecutionPolicy Bypass -File ./serve.ps1"
+  },
+  "keywords": [
+    "threejs",
+    "webgl",
+    "kage",
+    "threeui",
+    "landing-page",
+    "react"
+  ],
+  "author": "DesignCode / Meng To",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  }
+}
